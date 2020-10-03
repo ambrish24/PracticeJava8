@@ -1,6 +1,5 @@
-package com.learnjava.imperativevsdeclarative;
+package com.learnJava.imperativevsdeclarative;
 
-import java.util.function.Predicate;
 import java.util.stream.IntStream;
 
 public class ImperativeVsDeclarativeExample1 {
