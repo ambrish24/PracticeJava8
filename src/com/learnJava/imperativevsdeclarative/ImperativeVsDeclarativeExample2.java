@@ -15,7 +15,7 @@ public class ImperativeVsDeclarativeExample2 {
         //Remove the duplicates from the list.
 
         /**
-         * Imperative Style
+         * Imperative Style - how style of programming (How to iterate and perform uniqueness check)
          */
         List<Integer> uniqueList = new ArrayList<>();
         for(Integer i :integerList)
@@ -25,7 +25,9 @@ public class ImperativeVsDeclarativeExample2 {
         System.out.println("unique List : " + uniqueList);
 
         /**
-         * Declarative Syle
+         * Declarative style. (Functional programming uses the same style)
+         * what style of programming. (What operation to perform to achieve the Result without focusing on How)
+         * You let the system do the job for you and get the result.
          */
 
         List<Integer> uniqueList1 = integerList.stream()
